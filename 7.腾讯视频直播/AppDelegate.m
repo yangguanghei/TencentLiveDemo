@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+@import TXLiteAVSDK_Professional;
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    NSString * const licenceURL = @"http://license.vod2.myqcloud.com/license/v1/57d2063340600d30adfe2893577720d3/TXLiveSDK.licence";
+    NSString * const licenceKey = @"71009c1d23c6ff765c04520d52942d53";
+
+    //TXLiveBase 位于 "TXLiveBase.h" 头文件中
+    [TXLiveBase setLicenceURL:licenceURL key:licenceKey];
+    NSLog(@"SDK Version = %@", [TXLiveBase getSDKVersionStr]);
+    
     return YES;
 }
 

@@ -16,6 +16,7 @@
 		18955F9324D1186E00036B01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18955F9224D1186E00036B01 /* main.m */; };
 		18955F9D24D1186E00036B01 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18955F9C24D1186E00036B01 /* ________Tests.m */; };
 		18955FA824D1186E00036B01 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18955FA724D1186E00036B01 /* ________UITests.m */; };
+		4A1ADE71984969C986ACB6A2 /* libPods-7.腾讯视频直播.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16692C305009F8B6AF446F0C /* libPods-7.腾讯视频直播.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18955F7D24D1186D00036B01 /* 7.腾讯视频直播.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "7.腾讯视频直播.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16692C305009F8B6AF446F0C /* libPods-7.腾讯视频直播.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-7.腾讯视频直播.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18955F7D24D1186D00036B01 /* 看天下.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "看天下.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18955F8024D1186D00036B01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18955F8124D1186D00036B01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		18955F8324D1186D00036B01 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +56,8 @@
 		18955FA324D1186E00036B01 /* 7.腾讯视频直播UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "7.腾讯视频直播UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18955FA724D1186E00036B01 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
 		18955FA924D1186E00036B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF143383F429AD6F537C784 /* Pods-7.腾讯视频直播.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-7.腾讯视频直播.debug.xcconfig"; path = "Target Support Files/Pods-7.腾讯视频直播/Pods-7.腾讯视频直播.debug.xcconfig"; sourceTree = "<group>"; };
+		D538F848A402D530B64487F4 /* Pods-7.腾讯视频直播.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-7.腾讯视频直播.release.xcconfig"; path = "Target Support Files/Pods-7.腾讯视频直播/Pods-7.腾讯视频直播.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A1ADE71984969C986ACB6A2 /* libPods-7.腾讯视频直播.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,13 +93,15 @@
 				18955F9B24D1186E00036B01 /* 7.腾讯视频直播Tests */,
 				18955FA624D1186E00036B01 /* 7.腾讯视频直播UITests */,
 				18955F7E24D1186D00036B01 /* Products */,
+				549D8978C86848AE7885C94E /* Pods */,
+				8EF49A517E367B0D476EE6CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		18955F7E24D1186D00036B01 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18955F7D24D1186D00036B01 /* 7.腾讯视频直播.app */,
+				18955F7D24D1186D00036B01 /* 看天下.app */,
 				18955F9824D1186E00036B01 /* 7.腾讯视频直播Tests.xctest */,
 				18955FA324D1186E00036B01 /* 7.腾讯视频直播UITests.xctest */,
 			);
@@ -137,6 +144,23 @@
 			path = "7.腾讯视频直播UITests";
 			sourceTree = "<group>";
 		};
+		549D8978C86848AE7885C94E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AF143383F429AD6F537C784 /* Pods-7.腾讯视频直播.debug.xcconfig */,
+				D538F848A402D530B64487F4 /* Pods-7.腾讯视频直播.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8EF49A517E367B0D476EE6CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16692C305009F8B6AF446F0C /* libPods-7.腾讯视频直播.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +168,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18955FAC24D1186E00036B01 /* Build configuration list for PBXNativeTarget "7.腾讯视频直播" */;
 			buildPhases = (
+				ABB7428128E6D1B1B54B36BC /* [CP] Check Pods Manifest.lock */,
 				18955F7924D1186D00036B01 /* Sources */,
 				18955F7A24D1186D00036B01 /* Frameworks */,
 				18955F7B24D1186D00036B01 /* Resources */,
@@ -154,7 +179,7 @@
 			);
 			name = "7.腾讯视频直播";
 			productName = "7.腾讯视频直播";
-			productReference = 18955F7D24D1186D00036B01 /* 7.腾讯视频直播.app */;
+			productReference = 18955F7D24D1186D00036B01 /* 看天下.app */;
 			productType = "com.apple.product-type.application";
 		};
 		18955F9724D1186E00036B01 /* 7.腾讯视频直播Tests */ = {
@@ -261,6 +286,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ABB7428128E6D1B1B54B36BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-7.腾讯视频直播-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18955F7924D1186D00036B01 /* Sources */ = {
@@ -437,35 +487,41 @@
 		};
 		18955FAD24D1186E00036B01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AF143383F429AD6F537C784 /* Pods-7.腾讯视频直播.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N4686HA3AU;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "7.腾讯视频直播/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "LS.--------";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_BUNDLE_IDENTIFIER = LS.kantianxia.com;
+				PRODUCT_NAME = "看天下";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		18955FAE24D1186E00036B01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D538F848A402D530B64487F4 /* Pods-7.腾讯视频直播.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N4686HA3AU;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "7.腾讯视频直播/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "LS.--------";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_BUNDLE_IDENTIFIER = LS.kantianxia.com;
+				PRODUCT_NAME = "看天下";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
