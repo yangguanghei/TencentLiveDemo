@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18955F8224D1186D00036B01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18955F8124D1186D00036B01 /* AppDelegate.m */; };
+		18955F8524D1186D00036B01 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18955F8424D1186D00036B01 /* SceneDelegate.m */; };
+		18955F8824D1186D00036B01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18955F8724D1186D00036B01 /* ViewController.m */; };
+		18955F8B24D1186D00036B01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18955F8924D1186D00036B01 /* Main.storyboard */; };
+		18955F8D24D1186E00036B01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18955F8C24D1186E00036B01 /* Assets.xcassets */; };
+		18955F9024D1186E00036B01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18955F8E24D1186E00036B01 /* LaunchScreen.storyboard */; };
+		18955F9324D1186E00036B01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18955F9224D1186E00036B01 /* main.m */; };
+		18955F9D24D1186E00036B01 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18955F9C24D1186E00036B01 /* ________Tests.m */; };
+		18955FA824D1186E00036B01 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18955FA724D1186E00036B01 /* ________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18955F9924D1186E00036B01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18955F7524D1186D00036B01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18955F7C24D1186D00036B01;
+			remoteInfo = "7.腾讯视频直播";
+		};
+		18955FA424D1186E00036B01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18955F7524D1186D00036B01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18955F7C24D1186D00036B01;
+			remoteInfo = "7.腾讯视频直播";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18955F7D24D1186D00036B01 /* 7.腾讯视频直播.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "7.腾讯视频直播.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18955F8024D1186D00036B01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18955F8124D1186D00036B01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18955F8324D1186D00036B01 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		18955F8424D1186D00036B01 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		18955F8624D1186D00036B01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18955F8724D1186D00036B01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18955F8A24D1186D00036B01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18955F8C24D1186E00036B01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18955F8F24D1186E00036B01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18955F9124D1186E00036B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18955F9224D1186E00036B01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18955F9824D1186E00036B01 /* 7.腾讯视频直播Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "7.腾讯视频直播Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18955F9C24D1186E00036B01 /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
+		18955F9E24D1186E00036B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18955FA324D1186E00036B01 /* 7.腾讯视频直播UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "7.腾讯视频直播UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18955FA724D1186E00036B01 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
+		18955FA924D1186E00036B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18955F7A24D1186D00036B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18955F9524D1186E00036B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18955FA024D1186E00036B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18955F7424D1186D00036B01 = {
+			isa = PBXGroup;
+			children = (
+				18955F7F24D1186D00036B01 /* 7.腾讯视频直播 */,
+				18955F9B24D1186E00036B01 /* 7.腾讯视频直播Tests */,
+				18955FA624D1186E00036B01 /* 7.腾讯视频直播UITests */,
+				18955F7E24D1186D00036B01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18955F7E24D1186D00036B01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18955F7D24D1186D00036B01 /* 7.腾讯视频直播.app */,
+				18955F9824D1186E00036B01 /* 7.腾讯视频直播Tests.xctest */,
+				18955FA324D1186E00036B01 /* 7.腾讯视频直播UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18955F7F24D1186D00036B01 /* 7.腾讯视频直播 */ = {
+			isa = PBXGroup;
+			children = (
+				18955F8024D1186D00036B01 /* AppDelegate.h */,
+				18955F8124D1186D00036B01 /* AppDelegate.m */,
+				18955F8324D1186D00036B01 /* SceneDelegate.h */,
+				18955F8424D1186D00036B01 /* SceneDelegate.m */,
+				18955F8624D1186D00036B01 /* ViewController.h */,
+				18955F8724D1186D00036B01 /* ViewController.m */,
+				18955F8924D1186D00036B01 /* Main.storyboard */,
+				18955F8C24D1186E00036B01 /* Assets.xcassets */,
+				18955F8E24D1186E00036B01 /* LaunchScreen.storyboard */,
+				18955F9124D1186E00036B01 /* Info.plist */,
+				18955F9224D1186E00036B01 /* main.m */,
+			);
+			path = "7.腾讯视频直播";
+			sourceTree = "<group>";
+		};
+		18955F9B24D1186E00036B01 /* 7.腾讯视频直播Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18955F9C24D1186E00036B01 /* ________Tests.m */,
+				18955F9E24D1186E00036B01 /* Info.plist */,
+			);
+			path = "7.腾讯视频直播Tests";
+			sourceTree = "<group>";
+		};
+		18955FA624D1186E00036B01 /* 7.腾讯视频直播UITests */ = {
+			isa = PBXGroup;
+			children = (
+				18955FA724D1186E00036B01 /* ________UITests.m */,
+				18955FA924D1186E00036B01 /* Info.plist */,
+			);
+			path = "7.腾讯视频直播UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18955F7C24D1186D00036B01 /* 7.腾讯视频直播 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18955FAC24D1186E00036B01 /* Build configuration list for PBXNativeTarget "7.腾讯视频直播" */;
+			buildPhases = (
+				18955F7924D1186D00036B01 /* Sources */,
+				18955F7A24D1186D00036B01 /* Frameworks */,
+				18955F7B24D1186D00036B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "7.腾讯视频直播";
+			productName = "7.腾讯视频直播";
+			productReference = 18955F7D24D1186D00036B01 /* 7.腾讯视频直播.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18955F9724D1186E00036B01 /* 7.腾讯视频直播Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18955FAF24D1186E00036B01 /* Build configuration list for PBXNativeTarget "7.腾讯视频直播Tests" */;
+			buildPhases = (
+				18955F9424D1186E00036B01 /* Sources */,
+				18955F9524D1186E00036B01 /* Frameworks */,
+				18955F9624D1186E00036B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18955F9A24D1186E00036B01 /* PBXTargetDependency */,
+			);
+			name = "7.腾讯视频直播Tests";
+			productName = "7.腾讯视频直播Tests";
+			productReference = 18955F9824D1186E00036B01 /* 7.腾讯视频直播Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18955FA224D1186E00036B01 /* 7.腾讯视频直播UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18955FB224D1186E00036B01 /* Build configuration list for PBXNativeTarget "7.腾讯视频直播UITests" */;
+			buildPhases = (
+				18955F9F24D1186E00036B01 /* Sources */,
+				18955FA024D1186E00036B01 /* Frameworks */,
+				18955FA124D1186E00036B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18955FA524D1186E00036B01 /* PBXTargetDependency */,
+			);
+			name = "7.腾讯视频直播UITests";
+			productName = "7.腾讯视频直播UITests";
+			productReference = 18955FA324D1186E00036B01 /* 7.腾讯视频直播UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18955F7524D1186D00036B01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18955F7C24D1186D00036B01 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					18955F9724D1186E00036B01 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 18955F7C24D1186D00036B01;
+					};
+					18955FA224D1186E00036B01 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 18955F7C24D1186D00036B01;
+					};
+				};
+			};
+			buildConfigurationList = 18955F7824D1186D00036B01 /* Build configuration list for PBXProject "7.腾讯视频直播" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18955F7424D1186D00036B01;
+			productRefGroup = 18955F7E24D1186D00036B01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18955F7C24D1186D00036B01 /* 7.腾讯视频直播 */,
+				18955F9724D1186E00036B01 /* 7.腾讯视频直播Tests */,
+				18955FA224D1186E00036B01 /* 7.腾讯视频直播UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18955F7B24D1186D00036B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18955F9024D1186E00036B01 /* LaunchScreen.storyboard in Resources */,
+				18955F8D24D1186E00036B01 /* Assets.xcassets in Resources */,
+				18955F8B24D1186D00036B01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18955F9624D1186E00036B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18955FA124D1186E00036B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18955F7924D1186D00036B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18955F8824D1186D00036B01 /* ViewController.m in Sources */,
+				18955F8224D1186D00036B01 /* AppDelegate.m in Sources */,
+				18955F9324D1186E00036B01 /* main.m in Sources */,
+				18955F8524D1186D00036B01 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18955F9424D1186E00036B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18955F9D24D1186E00036B01 /* ________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18955F9F24D1186E00036B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18955FA824D1186E00036B01 /* ________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18955F9A24D1186E00036B01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18955F7C24D1186D00036B01 /* 7.腾讯视频直播 */;
+			targetProxy = 18955F9924D1186E00036B01 /* PBXContainerItemProxy */;
+		};
+		18955FA524D1186E00036B01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18955F7C24D1186D00036B01 /* 7.腾讯视频直播 */;
+			targetProxy = 18955FA424D1186E00036B01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18955F8924D1186D00036B01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18955F8A24D1186D00036B01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18955F8E24D1186E00036B01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18955F8F24D1186E00036B01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18955FAA24D1186E00036B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18955FAB24D1186E00036B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18955FAD24D1186E00036B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N4686HA3AU;
+				INFOPLIST_FILE = "7.腾讯视频直播/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LS.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18955FAE24D1186E00036B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N4686HA3AU;
+				INFOPLIST_FILE = "7.腾讯视频直播/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LS.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18955FB024D1186E00036B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N4686HA3AU;
+				INFOPLIST_FILE = "7.腾讯视频直播Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LS.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/7.腾讯视频直播.app/7.腾讯视频直播";
+			};
+			name = Debug;
+		};
+		18955FB124D1186E00036B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N4686HA3AU;
+				INFOPLIST_FILE = "7.腾讯视频直播Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LS.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/7.腾讯视频直播.app/7.腾讯视频直播";
+			};
+			name = Release;
+		};
+		18955FB324D1186E00036B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N4686HA3AU;
+				INFOPLIST_FILE = "7.腾讯视频直播UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LS.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "7.腾讯视频直播";
+			};
+			name = Debug;
+		};
+		18955FB424D1186E00036B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N4686HA3AU;
+				INFOPLIST_FILE = "7.腾讯视频直播UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LS.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "7.腾讯视频直播";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18955F7824D1186D00036B01 /* Build configuration list for PBXProject "7.腾讯视频直播" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18955FAA24D1186E00036B01 /* Debug */,
+				18955FAB24D1186E00036B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18955FAC24D1186E00036B01 /* Build configuration list for PBXNativeTarget "7.腾讯视频直播" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18955FAD24D1186E00036B01 /* Debug */,
+				18955FAE24D1186E00036B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18955FAF24D1186E00036B01 /* Build configuration list for PBXNativeTarget "7.腾讯视频直播Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18955FB024D1186E00036B01 /* Debug */,
+				18955FB124D1186E00036B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18955FB224D1186E00036B01 /* Build configuration list for PBXNativeTarget "7.腾讯视频直播UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18955FB324D1186E00036B01 /* Debug */,
+				18955FB424D1186E00036B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18955F7524D1186D00036B01 /* Project object */;
+}
